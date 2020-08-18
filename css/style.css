@@ -1119,7 +1119,7 @@ input:checked + .label__checkbox:before {
 .slider3 {
   -webkit-animation: fadeInUp;
   animation: fadeInUp;
-  margin: 50px 0 0 0;
+  margin: 10px 0 0 0;
   width: 100%;
   position: relative;
   height: auto; }
