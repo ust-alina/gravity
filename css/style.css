@@ -570,9 +570,6 @@ body {
     font-size: 0;
     width: 40px;
     height: 80px; }
-    @media (max-width: 480px) {
-      .slider .slick-arrow {
-        display: none; } }
     .slider .slick-arrow.slick-prev {
       left: 0;
       background: url("../images/arrow__left2.png") 0 0/100% no-repeat; }
@@ -660,12 +657,23 @@ body {
   color: #222;
   outline: none;
   height: 50px; }
+  @media (max-width: 767px) {
+    .send__form__text {
+      width: 100%;
+    }
+  }
 
 .send__form__button {
   background-color: #fff;
   color: #222; }
   .send__form__button:active {
     background-color: #048bfe; }
+  @media (max-width: 767px) {
+    .send__form__button {
+        width: 100%;
+        margin-top: 16px;
+       } 
+      }
 
 /*Services*/
 .services {
@@ -797,15 +805,14 @@ body {
     font-size: 0;
     width: 40px;
     height: 80px; }
-    @media (max-width: 480px) {
-      .slider2 .slick-arrow {
-        display: none; } }
   .slider2 .slick-arrow.slick-prev {
     left: 0;
     background: url("../images/left-black.png") 0 0/100% no-repeat; }
+  
   .slider2 .slick-arrow.slick-next {
     right: 0;
     background: url("../images/pngwing.com.png") 0 0/100% no-repeat; }
+   
   .slider2 .slick-dots li {
     list-style: none;
     margin: 0px 16px; }
@@ -1119,7 +1126,7 @@ input:checked + .label__checkbox:before {
 .slider3 {
   -webkit-animation: fadeInUp;
   animation: fadeInUp;
-  margin: 10px 0 0 0;
+  margin: 20px 0 0 0;
   width: 100%;
   position: relative;
   height: auto; }
